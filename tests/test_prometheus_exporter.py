@@ -1,4 +1,4 @@
-from src.telemetry.prometheus_exporter import PrometheusExporter
+from src.observability.prometheus_exporter import PrometheusExporter
 
 def test_prometheus_formatting():
     c = PrometheusExporter.format_counter("cli_invocations_total", 42, "Total invocations")

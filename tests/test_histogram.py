@@ -1,4 +1,4 @@
-from src.telemetry.histogram import LatencyHistogram
+from src.observability.histogram import LatencyHistogram
 
 def test_histogram_percentiles():
     hist = LatencyHistogram([10.0, 50.0, 100.0])

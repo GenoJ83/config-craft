@@ -1,4 +1,4 @@
-from src.telemetry.tracer import TraceSpan
+from src.observability.tracer import TraceSpan
 
 def test_trace_span():
     span = TraceSpan("disk_read")

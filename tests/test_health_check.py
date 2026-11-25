@@ -1,4 +1,4 @@
-from src.telemetry.health_check import HealthChecker
+from src.observability.health_check import HealthChecker
 
 def test_health_checker():
     hc = HealthChecker()
